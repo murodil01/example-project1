@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts -->
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap -->
+
+    <!-- Font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- Font awesome icons -->
+
+    <!-- Style.css-->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Style.css-->
+
+    <title>1-Project</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <a href="#">
+          <img src="./images/logo.svg" alt="Logo" />
+        </a>
+
+        <div class="nav-content" id="menuList">
+          <ul class="nav-item">
+            <li class="nav-items">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="#product">Product</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-items"><a class="nav-link" href="#blog">Blog</a></li>
+          </ul>
+
+          <div class="d-flex gap-3 pb-3 pb-sm-0">
+            <a href="profile.html" class="header-box"
+              ><i class="fa-solid fa-user"></i
+            ></a>
+            <a href="notification.html" class="header-box"
+              ><i class="fa-solid fa-bell"></i
+            ></a>
+          </div>
+        </div>
+        <div class="menu-icon">
+          <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+      </nav>
+    </header>
+
+    <menu>
+      <!-- Notification -->
+      <section class="notification">
+        <div class="notification__wrapper container">
+          <div class="notification__item success">
+            <i class="fas fa-check-circle"></i>
+            <p>Your changes have been saved successfully!</p>
+          </div>
+
+          <div class="notification__item error">
+            <i class="fas fa-times-circle"></i>
+            <p>Something went wrong. Please try again.</p>
+          </div>
+
+          <div class="notification__item info">
+            <i class="fas fa-info-circle"></i>
+            <p>New update available. Check it out!</p>
+          </div>
+        </div>
+      </section>
+      <!-- Notification -->
+    </menu>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <!-- Left: Logo va matn -->
+        <div class="footer-left">
+          <a href="#">
+            <img src="./images/logo.svg" alt="Logo" class="footer-logo" />
+          </a>
+          <p class="footer-desc">
+            Agro, short for agriculture, encompasses all activities related to
+            the cultivation of crops, food, fiber and agricultural commodities.
+          </p>
+        </div>
+
+        <!-- Right: Link bo‘limlar -->
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy & Policy</a></li>
+              <li><a href="#">Terms & Condition</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="#">Address: Mohammadpur, Dhaka</a></li>
+              <li><a href="#">Phone: +8801323455677</a></li>
+              <li><a href="#">Email: info@agro.com</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">YouTube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom text -->
+      <p class="footer-bottom">© All Rights Reserved by Rumi Aktar</p>
+    </footer>
+
+    <script src="./app.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
